@@ -10,31 +10,31 @@ const getOptionsInfo = async () => {
         choices: [
             {
                 name: "View all Departments.",
-                value: "listDepartments"
+                value: "viewDepartments"
             },
             {
                 name: "View all Roles.",
-                value: "listRoles"
+                value: "viewRoles"
             },
             {
                 name: "View all Employees",
-                value: "listEmployees"
+                value: "viewEmployees"
             },
             {
                 name: "Add a Department",
-                value: "addDepartment"
+                value: "addDepartmentPrompt"
             },
             {
                 name: "Add a Role",
-                value: "addRole"
+                value: "addRolePrompt"
             },
             {
                 name: "Add an Employee",
-                value: "addEmployee"
+                value: "addEmployeePrompt"
             },
             {
                 name: "Update Employee Role",
-                value: "updateEmployeeRole"
+                value: "updateEmployeeRolePrompt"
             },
             {
                 name: "Exit",
@@ -58,3 +58,5 @@ const init = async () => {
         if (renderOption) await renderOption();
     }
 }
+
+init();
