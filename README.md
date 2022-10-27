@@ -17,6 +17,12 @@ Run 'npm start' on the terminal to begin the queries.
 
 ![Preview](./img/department.png)
 
+## Demo
+
+A video demo of the application may be found here
+
+https://drive.google.com/file/d/1a3pDzgYWCLjNEZ4jtZV1mLK94Lvjhncz/view
+
 ## License
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
